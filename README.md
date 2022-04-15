@@ -1,5 +1,5 @@
 
-Metachain-quorum is a fork of [Goquorum](www.goquorum.com) and tailored to PeopleData Community.
+Metachain-quorum is a fork of [Goquorum](www.goquorum.com) and tailored to [PeopleData Community](www.peopledata.org.cn).
 
 GoQuorum is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.
 
