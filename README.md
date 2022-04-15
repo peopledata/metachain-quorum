@@ -3,9 +3,9 @@ Metachain-quorum is a fork of [Goquorum](www.goquorum.com) and tailored to [Peop
 
 GoQuorum is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.
 
-# Key features
+## Key features
 
-## Inherit features from GoQuorum
+### Inherit features from GoQuorum
 
 Metachain-quorum inherit key enhancements from GoQuorum over go-ethereum:
 
@@ -20,63 +20,37 @@ Metachain-quorum inherit key enhancements from GoQuorum over go-ethereum:
 * [__Pluggable Architecture__](https://consensys.net/docs/goquorum/en/latest/concepts/plugins/) -  allows adding additional features as plugins to the core `geth`, providing extensibility, flexibility, and distinct isolation of GoQuorum features.
 * __Higher Performance__ - GoQuorum offers significantly higher performance throughput than public geth
 
-Metachain-quorum keep the same architecture in GoQuorum:
+Metachain-quorum keep the same architecture with GoQuorum:
 
-## Architecture
+### Architecture
 
 ![GoQuorum Tessera Privacy Flow](https://github.com/consensys/quorum/blob/master/docs/Quorum%20Design.png)
 
 The above diagram is very high-level overview of component architecture used by GoQuorum. For more in-depth discussion of the components and how they interact, please refer to [lifecycle of a private transaction](https://consensys.net/docs/goquorum/en/latest/concepts/privacy/private-transaction-lifecycle/).
 
-## Key Enhancements over GoQuorum
+### Key Enhancements over GoQuorum
 [todo]
 
 
-# Quickstart 
-The easiest way to get started is to use * [metachain-quorum-quickstart](https://consensys.net/docs/goquorum/en/latest/tutorials/quorum-dev-quickstart/getting-started/) - a command line tool that allows users to set up a development GoQuorum network on their local machine in less than *2 minutes*.
-
-## GoQuorum Projects
-
-Check out some of the interesting projects we are actively working on:
-
-* [quorum-remix-plugin](https://consensys.net/docs/goquorum/en/latest/tutorials/quorum-dev-quickstart/remix/): The GoQuorum plugin for Ethereum's Remix IDE adds support for creating and interacting with private contracts on a GoQuorum network.
-* [Cakeshop](https://consensys.net/docs/goquorum/en/latest/configure-and-manage/monitor/cakeshop/): An integrated development environment and SDK for GoQuorum
-* [quorum-examples](https://github.com/ConsenSys/quorum-examples): GoQuorum demonstration examples
-* <img src="docs/images/qubernetes/k8s-logo.png" width="15"/> [Quorum-Kubernetes](https://consensys.net/docs/goquorum/en/latest/deploy/install/kubernetes/): Deploy GoQuorum on Kubernetes
-* [we3js-quorum](https://consensys.net/docs/goquorum/en/latest/reference/web3js-quorum/): Extends web3.js to support GoQuorum and Hyperledger Besu specific APIs
-* Zero Knowledge on GoQuorum
-   * [ZSL on GoQuorum](https://github.com/ConsenSys/zsl-q/)
-   * [Anonymous Zether](https://github.com/ConsenSys/anonymous-zether)
-
-
+## Quickstart 
+The easiest way to get started is to use * [metachain-quickstart](https://www.peopledata.org.cn/metachain-quickstart) - a command line tool that allows users to set up a development Metachain-quorum network on their local machine in *few minutes*.
 
 ## Official Docker Containers
-The official docker containers can be found under https://hub.docker.com/u/quorumengineering/
+The official docker containers can be found under https://hub.docker.com/atomsbeijing
 
 ## Third Party Tools/Libraries
-
-The following GoQuorum-related libraries/applications have been created by Third Parties and as such are not specifically endorsed by J.P. Morgan.  A big thanks to the developers for improving the tooling around GoQuorum!
-
-* [Quorum Blockchain Explorer](https://github.com/web3labs/epirus-free) - a Blockchain Explorer for GoQuorum which supports viewing private transactions
-* [Quorum-Genesis](https://github.com/davebryson/quorum-genesis) - A simple CL utility for GoQuorum to help populate the genesis file with voters and makers
-* [Quorum Maker](https://github.com/synechron-finlabs/quorum-maker/) - a utility to create GoQuorum nodes
-* [ERC20 REST service](https://github.com/web3labs/erc20-rest-service) - a GoQuorum-supported RESTful service for creating and managing ERC-20 tokens
-* [Nethereum Quorum](https://github.com/Nethereum/Nethereum/tree/master/src/Nethereum.Quorum) - a .NET GoQuorum adapter
-* [web3j-quorum](https://github.com/web3j/web3j-quorum) - an extension to the web3j Java library providing support for the GoQuorum API
-* [Apache Camel](http://github.com/apache/camel) - an Apache Camel component providing support for the GoQuorum API using web3j library. Here is the artcile describing how to use Apache Camel with Ethereum and GoQuorum https://medium.com/@bibryam/enterprise-integration-for-ethereum-fa67a1577d43
+[todo]
 
 ## Contributing
-GoQuorum is built on open source and we invite you to contribute enhancements. Upon review you will be required to complete a Contributor License Agreement (CLA) before we are able to merge. If you have any questions about the contribution process, please feel free to send an email to [info@goquorum.com](mailto:info@goquorum.com). Please see the [Contributors guide](.github/CONTRIBUTING.md) for more information about the process.
+Metachain-quorum is built on open source and we invite you to contribute enhancements. Upon review you will be required to complete a Contributor License Agreement (CLA) before we are able to merge. If you have any questions about the contribution process, please feel free to send an email to info@peopledata.org.cn](mailto:info@peopledata.org.cn). Please see the [Contributors guide](.github/CONTRIBUTING.md) for more information about the process.
 
 ## Reporting Security Bugs
 Security is part of our commitment to our users. At GoQuorum we have a close relationship with the security community, we understand the realm, and encourage security researchers to become part of our mission of building secure reliable software. This section explains how to submit security bugs, and what to expect in return.
 
-All security bugs in [GoQuorum](https://github.com/consensys/quorum) and its ecosystem ([Tessera](https://github.com/consensys/tessera), [Cakeshop](https://github.com/consensys/cakeshop), ..etc)  should be reported by email to [security-quorum@consensys.net](mailto:security-quorum@consensys.net). Please use the prefix **[security]** in your subject. This email is delivered to GoQuorum security team. Your email will be acknowledged, and you'll receive a more detailed response to your email as soon as possible indicating the next steps in handling your report. After the initial reply to your report, the security team will endeavor to keep you informed of the progress being made towards a fix and full announcement.
-
 If you have not received a reply to your email or you have not heard from the security team please contact any team member through GoQuorum slack security channel. **Please note that GoQuorum discord channels are public discussion forum**. When escalating to this medium, please do not disclose the details of the issue. Simply state that you're trying to reach a member of the security team.
 
 #### Responsible Disclosure Process
-GoQuorum project uses the following responsible disclosure process:
+Metachain-quorum project uses the following responsible disclosure process:
 
 - Once the security report is received it is assigned a primary handler. This person coordinates the fix and release process.
 - The issue is confirmed and a list of affected software is determined.
@@ -89,10 +63,7 @@ GoQuorum project uses the following responsible disclosure process:
 **Note:** This process can take some time. Every effort will be made to handle the security bug in as timely a manner as possible, however it's important that we follow the process described above to ensure that disclosures are handled consistently.
 
 #### Receiving Security Updates
-The best way to receive security announcements is to subscribe to the Quorum-announce mailing list/channel. Any messages pertaining to a security issue will be prefixed with **[security]**.
-
-Comments on This Policy
-If you have any suggestions to improve this policy, please send an email to info@goquorum.com for discussion.
+The best way to receive security announcements is to subscribe to the metachain-announce mailing list/channel. Any messages pertaining to a security issue will be prefixed with **[security]**.
 
 ## License
 
