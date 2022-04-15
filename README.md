@@ -24,7 +24,7 @@ Metachain-quorum keep the same architecture with GoQuorum:
 
 ### Architecture
 
-![metachain-quorum](./metachain-quorum架构图.png)
+![metachain-quorum](https://github.com/peopledata/metachain-quorum/blob/1893c9a004c00c2838ccda9981a1dbcaa88a5ccc/metachain-quorum%E6%9E%B6%E6%9E%84%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 The above diagram is very high-level overview of component architecture used by GoQuorum. For more in-depth discussion of the components and how they interact, please refer to [lifecycle of a private transaction](https://consensys.net/docs/goquorum/en/latest/concepts/privacy/private-transaction-lifecycle/).
 
