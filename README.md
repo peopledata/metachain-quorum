@@ -1,16 +1,13 @@
-# <img src="https://raw.githubusercontent.com/consensys/quorum/master/logo.png" width="200" height="35"/>
 
-
-![Build Check](https://github.com/jpmorganchase/quorum/workflows/Build%20Check/badge.svg?branch=master)
-[![Docker Pulls](https://img.shields.io/docker/pulls/quorumengineering/quorum)](https://hub.docker.com/r/quorumengineering/quorum)
-[![Discord](https://img.shields.io/discord/697535391594446898)](https://discord.com/channels/697535391594446898/747810572937986240)
-
+Metachain-quorum is a fork of [Goquorum](www.goquorum.com) and tailored to PeopleData Community.
 
 GoQuorum is an Ethereum-based distributed ledger protocol with transaction/contract privacy and new consensus mechanisms.
 
-GoQuorum is a fork of [go-ethereum](https://github.com/ethereum/go-ethereum) and is updated in line with go-ethereum releases.
+# Key features
 
-Key enhancements over go-ethereum:
+## Inherit features from GoQuorum
+
+Metachain-quorum inherit key enhancements from GoQuorum over go-ethereum:
 
 * [__Privacy__](https://consensys.net/docs/goquorum//en/latest/concepts/privacy/privacy/) - GoQuorum supports private transactions and private contracts through public/private state separation, and utilises peer-to-peer encrypted message exchanges (see [Tessera](https://github.com/consensys/tessera)) for directed transfer of private data to network participants
 * [__Alternative Consensus Mechanisms__](https://consensys.net/docs/goquorum//en/latest/concepts/consensus/overview/) - with no need for POW/POS in a permissioned network, GoQuorum instead offers multiple consensus mechanisms that are more appropriate for consortium chains:
@@ -23,14 +20,20 @@ Key enhancements over go-ethereum:
 * [__Pluggable Architecture__](https://consensys.net/docs/goquorum/en/latest/concepts/plugins/) -  allows adding additional features as plugins to the core `geth`, providing extensibility, flexibility, and distinct isolation of GoQuorum features.
 * __Higher Performance__ - GoQuorum offers significantly higher performance throughput than public geth
 
+Metachain-quorum keep the same architecture in GoQuorum:
+
 ## Architecture
 
 ![GoQuorum Tessera Privacy Flow](https://github.com/consensys/quorum/blob/master/docs/Quorum%20Design.png)
 
 The above diagram is very high-level overview of component architecture used by GoQuorum. For more in-depth discussion of the components and how they interact, please refer to [lifecycle of a private transaction](https://consensys.net/docs/goquorum/en/latest/concepts/privacy/private-transaction-lifecycle/).
 
-## Quickstart
-The easiest way to get started is to use * [quorum-dev-quickstart](https://consensys.net/docs/goquorum/en/latest/tutorials/quorum-dev-quickstart/getting-started/) - a command line tool that allows users to set up a development GoQuorum network on their local machine in less than *2 minutes*.
+## Key Enhancements over GoQuorum
+[todo]
+
+
+# Quickstart 
+The easiest way to get started is to use * [metachain-quorum-quickstart](https://consensys.net/docs/goquorum/en/latest/tutorials/quorum-dev-quickstart/getting-started/) - a command line tool that allows users to set up a development GoQuorum network on their local machine in less than *2 minutes*.
 
 ## GoQuorum Projects
 
